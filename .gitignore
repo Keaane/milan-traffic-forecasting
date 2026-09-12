@@ -1,0 +1,41 @@
+# Bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Raw Telecom Italia daily files (large; not distributed with the repo)
+data/raw/
+data/raw/**
+
+# Large processed intermediates (rebuild with the pipeline)
+data/processed/internet_traffic.parquet
+data/processed/sms-call-internet-mi-*.parquet
+data/processed/sequences/
+
+# Model checkpoints (regenerate by training)
+*.pt
+data/processed/predictions/*.pt
+
+# report/ keeps the compiled report only. Figures, statistics, the results
+# tables and the experiment log are pipeline output (make eda / evaluate /
+# analyze / bench regenerate them), and the assignment brief is not ours.
+report/*
+!report/report.pdf
+
+# Local env
+.env
+.venv/
+venv/
