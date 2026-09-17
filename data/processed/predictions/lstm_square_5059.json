@@ -1,0 +1,25 @@
+{
+  "square_id": 5059,
+  "model": "lstm",
+  "config": "LSTM(layers=2, hidden=64, dropout=0.0)",
+  "num_layers": 2,
+  "hidden_size": 64,
+  "dropout": 0.0,
+  "mae": 78.05945793030754,
+  "mape": 7.527561888757736,
+  "rmse": 113.31119600471581,
+  "train_seconds": 45.377212707,
+  "infer_seconds": 0.3927460929999995,
+  "hardware": {
+    "system": "Darwin",
+    "release": "24.6.0",
+    "machine": "x86_64",
+    "processor": "i386",
+    "cpu_brand": "Intel(R) Core(TM) i7-8569U CPU @ 2.80GHz",
+    "cpu_count_logical": 8,
+    "cpu_count_physical": 4,
+    "ram_gb": 16.0,
+    "python_version": "3.9.6",
+    "collected_at_utc": "2026-09-18 13:23:23 UTC"
+  }
+}

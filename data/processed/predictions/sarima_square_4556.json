@@ -1,0 +1,39 @@
+{
+  "square_id": 4556,
+  "model": "sarima",
+  "config": "SARIMA(1,0,1)x(0,1,0,144)",
+  "order": [
+    1,
+    0,
+    1
+  ],
+  "seasonal_order": [
+    0,
+    1,
+    0,
+    144
+  ],
+  "mae": 35.8644289310309,
+  "mape": 8.170908363423688,
+  "rmse": 48.4590471542617,
+  "train_seconds": 1.201851428999987,
+  "infer_seconds": 0.0770124009999904,
+  "fit_seconds": 1.201851428999987,
+  "train_end": "2013-12-15 23:50:00+01:00",
+  "test_start": "2013-12-16 00:00:00+01:00",
+  "test_end": "2013-12-22 23:50:00+01:00",
+  "implementation": "SARIMA(p,d,q)x(0,1,0,144) via seasonal differencing + ARIMA; one-step Kalman predictions inverted to levels.",
+  "limitation": "Weekly lag-1008 seasonality not modelled; seasonal AR/MA (P,Q) omitted for tractability at s=144.",
+  "hardware": {
+    "system": "Darwin",
+    "release": "24.6.0",
+    "machine": "x86_64",
+    "processor": "i386",
+    "cpu_brand": "Intel(R) Core(TM) i7-8569U CPU @ 2.80GHz",
+    "cpu_count_logical": 8,
+    "cpu_count_physical": 4,
+    "ram_gb": 16.0,
+    "python_version": "3.9.6",
+    "collected_at_utc": "2026-09-18 13:27:25 UTC"
+  }
+}

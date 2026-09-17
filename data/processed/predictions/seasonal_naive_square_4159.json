@@ -1,0 +1,13 @@
+{
+  "square_id": 4159,
+  "model": "seasonal_naive",
+  "config": "Seasonal naive (lag 144)",
+  "mae": 51.18734395314777,
+  "mape": 21.804326299316415,
+  "rmse": 84.64291155236533,
+  "train_seconds": 0.0,
+  "infer_seconds": 0.0007056379999994533,
+  "test_start": "2013-12-16 00:00:00+01:00",
+  "test_end": "2013-12-22 23:50:00+01:00",
+  "implementation": "Closed-form shift of the observed series; no parameters are estimated, so training time is zero by construction."
+}

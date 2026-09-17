@@ -1,0 +1,26 @@
+{
+  "square_id": 4556,
+  "model": "cnn1d",
+  "config": "CNN1D(filters=32, kernel=5, layers=1, dropout=0.1)",
+  "num_filters": 32,
+  "kernel_size": 5,
+  "num_layers": 1,
+  "dropout": 0.1,
+  "mae": 33.101793803865945,
+  "mape": 8.077025613704848,
+  "rmse": 42.57529451123903,
+  "train_seconds": 4.1321333519999826,
+  "infer_seconds": 0.012392043999966518,
+  "hardware": {
+    "system": "Darwin",
+    "release": "24.6.0",
+    "machine": "x86_64",
+    "processor": "i386",
+    "cpu_brand": "Intel(R) Core(TM) i7-8569U CPU @ 2.80GHz",
+    "cpu_count_logical": 8,
+    "cpu_count_physical": 4,
+    "ram_gb": 16.0,
+    "python_version": "3.9.6",
+    "collected_at_utc": "2026-09-18 13:28:51 UTC"
+  }
+}
