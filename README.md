@@ -2,7 +2,8 @@
 
 One-step-ahead Internet traffic forecasting on the Telecom Italia Milan grid, comparing **SARIMA**, an **LSTM**, and a **1D-CNN** against **persistence** and **seasonal-naive** baselines, over the week of 16–22 December 2013.
 
-**Report:** [`report.pdf`](report/report.pdf)
+**Report:** [`report.pdf`](report/report.pdf)  
+**Video presentation:** [awesomescreenshot.com/video/56694418](https://www.awesomescreenshot.com/video/56694418?key=8106dfcb18d4c6d9ef7d6218b695b641)
 
 ## Results
 
